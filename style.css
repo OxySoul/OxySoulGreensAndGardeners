@@ -324,3 +324,98 @@ footer {
   font-size: 1rem;
   border-top: 1px solid #D9D7C5;
 }
+/* ===================== */
+/* 📱 Responsive Fixes 📱 */
+/* ===================== */
+
+@media (max-width: 768px) {
+
+  header div {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  header img {
+    height: 120px !important;
+    top: 0 !important;
+    margin: 0 auto 1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 6rem 1rem;
+    font-size: 1.1rem;
+  }
+
+  .feature-section {
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+  }
+
+  .about-list {
+    font-size: 1rem;
+  }
+
+  .experience-highlight {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .feature-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .feature-card p {
+    font-size: 0.95rem;
+  }
+
+  .question-btn {
+    font-size: 1rem;
+  }
+
+  .answer p {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav a {
+    margin: 6px 10px;
+    font-size: 0.95rem;
+  }
+
+  .hero {
+    padding: 4rem 1rem;
+    font-size: 1rem;
+  }
+
+  .feature-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .blog-list {
+    font-size: 1rem;
+  }
+
+  .card img {
+    height: 180px;
+  }
+}
+
